@@ -3,7 +3,7 @@
 ## Nombre del Proyecto
 
 [Nombre del proyecto aquí]
-Peptidos
+Peptidos dos tres
 
 ## Objetivo del Proyecto
 
