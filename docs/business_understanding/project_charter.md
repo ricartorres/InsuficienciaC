@@ -12,7 +12,7 @@ Peptidos dos tres
 ## Alcance del Proyecto
 
 ### Incluye:
-
+- prueba 2
 - prueba
 - [Descripción de los resultados esperados]
 - [Criterios de éxito del proyecto]
