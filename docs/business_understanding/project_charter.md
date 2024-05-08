@@ -3,6 +3,7 @@
 ## Nombre del Proyecto
 
 [Nombre del proyecto aquí]
+Peptidos dos tres
 
 ## Objetivo del Proyecto
 
@@ -11,8 +12,8 @@
 ## Alcance del Proyecto
 
 ### Incluye:
-
-- [Descripción de los datos disponibles]
+- prueba 2
+- prueba
 - [Descripción de los resultados esperados]
 - [Criterios de éxito del proyecto]
 
