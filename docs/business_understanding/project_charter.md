@@ -13,7 +13,7 @@ Peptidos dos tres
 
 ### Incluye:
 
-- [Descripción de los datos disponibles]
+- prueba
 - [Descripción de los resultados esperados]
 - [Criterios de éxito del proyecto]
 
