@@ -14,19 +14,20 @@ El presente estudio tiene como objetivo, Analizar los diferentes factores de rie
 
 ## Objetivo del Proyecto
 
-[Descripción breve del objetivo del proyecto y por qué es importante]
+El objetivo principal de la investigación es:
+Analizar los diferentes factores de riesgo registrados identificando si estos pudieran tener incidencia efectiva en el diagnóstico de diabetes, por medio de la aplicación de técnicas de Aprendizaje de máquina y ciencia de datos que permitan de manera efectiva esta relación.
 
 ## Alcance del Proyecto
 
 ### Incluye:
 
-- [Descripción de los datos disponibles]
-- [Descripción de los resultados esperados]
-- [Criterios de éxito del proyecto]
+El proyecto tiene como alcance la aplicación de una metodología para proyectos de ciencia de datos (para este estudio se basa en CRISP-DM) que den respuesta a la problemática y se espera de un diseño y aplicación de un modelo (posiblemente de clasificación) que permita de manera efectiva el análisis de los factores de riesgo y permita establecer la posibilidad de existencia o no de diabetes.
+La base de datos se compone de 100.000 registros de pacientes con posibles factores de riegos y la presencia o no de diabetes.
+Se Espera que el análisis permita la aplicación de un modelo de clasificación que permita la posible identificación de un diagnóstico de diabetes. 
 
 ### Excluye:
 
-- [Descripción de lo que no está incluido en el proyecto]
+El presente proyecto no plantea las fases posteriores a la implementación, como lo serian, evaluaciones posteriores del cliente, así como futuras retroalimentaciones, o ajuste de hiperparametros y modelos.
 
 ## Metodología
 
