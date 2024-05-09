@@ -2,7 +2,15 @@
 
 ## Nombre del Proyecto
 
-Aplicación de aprendizaje de Maquina (Machine Learning) en el análisis de la Diabetes.
+**APLICACIÓN DE APRENDIZAJE DE MAQUINA (MACHINE LEARNING) EN EL ANÁLISIS DE LA DIABETES.**
+
+## Descripción del Proyecto
+
+Cada vez más personas en todo el mundo padecen diabetes, lo cual es un problema de salud grave. En este momento, hay alrededor de 463 millones de personas entre 20 y 79 años que padecen diabetes. Este grupo de personas es como el 9,3% de la población mundial. Creen que el total será de 578 millones de personas en 2030 y 700 millones de personas en 2045. 
+Hay muchas razones por las que la diabetes es más común ahora, como que las personas viven más tiempo, que más personas son diagnosticadas, diferentes formas de descubrir quién la tiene y cosas en el medio ambiente y cómo actuamos que nos hacen más propensos a contraerla. Producto: En América Latina, alrededor del 8 al 13% de los adultos entre 20 y 79 años tienen diabetes. En el caso de Colombia aproximadamente del 7,4% en hombres y del 8,7% en mujeres mayores de 30 años.
+Teniendo en cuenta este panorama, el análisis e identificación de esta patología resulta relevante para las mejoras de la salud pública, de manera que la aplicación de metodologías de Aprendizaje de Maquina, estadística y metodologías empleadas en la ciencia de datos resulta altamente pertinente para el estudio y análisis de la diabetes.
+La problemática que pretende tratar la presente investigación, corresponde con el análisis de los diferentes factores que pedirán ser relevantes para el diagnóstico de diabetes y analizar si existe relación entre estos y el diagnostico de diabetes.
+El presente estudio tiene como objetivo, Analizar los diferentes factores de riesgo registrados identificando si estos pudieran tener incidencia efectiva en el diagnóstico de diabetes, por medio de la aplicación de técnicas de Aprendizaje de máquina y ciencia de datos que permitan de manera efectiva esta relación.
 
 ## Objetivo del Proyecto
 
