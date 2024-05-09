@@ -38,8 +38,9 @@ Hay que tener en cuenta que estas fechas son de ejemplo, estas deben ajustarse d
 
 ## Equipo del Proyecto
 
-- [Nombre y cargo del líder del proyecto]
-- [Nombre y cargo de los miembros del equipo]
+- Jaime Alejandro García
+- Kevin Andrés Timarán
+- Cristian Andrés Berrio
 
 ## Presupuesto
 
