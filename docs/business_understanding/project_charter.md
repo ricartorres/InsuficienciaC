@@ -2,7 +2,7 @@
 
 ## Nombre del Proyecto
 
-[Nombre del proyecto aquí]
+Aplicación de aprendizaje de Maquina (Machine Learning) en el análisis de la Diabetes.
 
 ## Objetivo del Proyecto
 
