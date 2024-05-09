@@ -59,12 +59,8 @@ El proyecto no contempla un presupuesto monetario, no obstante, se plantea la ne
 
 ## Stakeholders
 
-- [Nombre y cargo de los stakeholders del proyecto]
-- [Descripción de la relación con los stakeholders]
-- [Expectativas de los stakeholders]
+En este caso, los principales interesados se encuentran en el sector médico y de investigación, esta investigación tiene un alto impacto en el sector de la medicina diagnostica y pueden ayudar de manera efectiva a identificar situaciones de riesgo de manera preventiva y facilitar los diagnósticos. 
 
 ## Aprobaciones
 
-- [Nombre y cargo del aprobador del proyecto]
-- [Firma del aprobador]
-- [Fecha de aprobación]
+Este análisis debe ser avalado por endocrinólogos que a partir de las bases de datos y la información puedan realizar un análisis eficiente de los resultados.
