@@ -31,7 +31,9 @@ El presente proyecto no plantea las fases posteriores a la implementación, como
 
 ## Metodología
 
-[Descripción breve de la metodología que se utilizará para llevar a cabo el proyecto]
+Como metodología se plante la aplicación de una basada en CRISP-DM, donde como primer paso se plantea, el correcto entendimiento del negocio y de la data, así como la descripción de la de la base de datos, lo cual lleve la extracción de las características necesarias de la data. posteriormente, se espera la aplicación de las diferentes técnicas de Aprendizaje de Maquina (Machine Learning) y de ser necesario de Aprendizaje Profundo (Deep Learning) vistas en el curso, incluyendo la preprocesamiento, la identificación de hiperparametros y modelos, el ajuste de los modelos (teniendo en cuenta la problemática, posiblemente corresponderán a modelos de clasificación) y la evaluación de los modelos con mejor desempeño. 
+Finalmente, El proyecto plantea la puesta en producción del modelo y la publicación del mismo en un repositorio.
+
 
 ## Cronograma
 
@@ -53,7 +55,7 @@ Hay que tener en cuenta que estas fechas son de ejemplo, estas deben ajustarse d
 
 ## Presupuesto
 
-[Descripción del presupuesto asignado al proyecto]
+El proyecto no contempla un presupuesto monetario, no obstante, se plantea la necesidad de recursos informáticos, que de acuerdo al volumen de información y de datos puede ser cubiertos con las máquinas virtuales y los recursos provistos en el desarrollo del curso.
 
 ## Stakeholders
 
