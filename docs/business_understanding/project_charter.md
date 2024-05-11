@@ -39,13 +39,14 @@ Finalmente, El proyecto plantea la puesta en producción del modelo y la publica
 
 | Etapa | Duración Estimada | Fechas |
 |------|---------|-------|
-| Entendimiento del negocio y carga de datos | 2 semanas | del 1 de mayo al 15 de mayo |
-| Preprocesamiento, análisis exploratorio | 4 semanas | del 16 de mayo al 15 de junio |
-| Modelamiento y extracción de características | 4 semanas | del 16 de junio al 15 de julio |
-| Despliegue | 2 semanas | del 16 de julio al 31 de julio |
-| Evaluación y entrega final | 3 semanas | del 1 de agosto al 21 de agosto |
-
-Hay que tener en cuenta que estas fechas son de ejemplo, estas deben ajustarse de acuerdo al proyecto.
+| Entendimiento del negocio | 1 semana | del 27 de abril al 2 de mayo |
+| Adquisición y consolidación de los datos | 1 semana | del 3 de mayo al 9 de mayo |
+| Prepocesamiento | 4 dias | del 10 de mayo al 13 de mayo |
+| Análisis exploratorio | 3 dias | del 14 de mayo al 16 de mayo |
+| Modelamiento y extracción de características | 1 semana | del 17 de mayo al 23 de mayo |
+| Ajustar modelo con hiperparametros | 4 dias  | del 24 de mayo al 27 de mayo |
+| Evaluación del modelo | 2 dias  | del 28 de mayo al 29 de mayo |
+| Interpretación de los resultados y conclusiones del proyecto | 3 dias | del 30 de mayo al 1 de junio |
 
 ## Equipo del Proyecto
 
