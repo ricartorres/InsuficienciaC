@@ -2,11 +2,11 @@
 
 ## Origen de los datos
 
-- [ ] Especificar la fuente de los datos y la forma en que se obtuvieron. 
+El set de datos es una recopilación de datos médicos y demográficos de los pacientes, que incluye su estado de diabetes, indicando si es positivo o negativo. Este conjunto de datos se adquirió de kaggle el set de datos se llama "Diabetes prediction dataset".
 
 ## Especificación de los scripts para la carga de datos
 
-- [ ] Especificar los scripts utilizados para la carga de los datos. 
+El cargue de datos se hace por medio del archivo .csv, en donde el código se encuentra en la subcarpeta data_acquisition en el archivo main.py
 
 ## Referencias a rutas o bases de datos origen y destino
 
