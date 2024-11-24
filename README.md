@@ -1,10 +1,21 @@
-# Team Data Science Project Template
+# Team 10 Data Science Project 2024-2
 
-Esta plantilla es una implementación de la plantilla de proyecto de Team Data Science Process que actualmente se utiliza en el "Programa de Formación en Machine Learning y Data Science" en la Universidad Nacional de Colombia.
+Esta repositorio contiene el desarrollo y estructuración del proyecto asociado al grupo 10 del modulo 6 del "Programa de formación en Machine Learning and Data Science" de la Universidad Nacional de Colombia.
 
-Esta plantilla proporciona las siguientes carpetas y archivos:
+El proyecto asociado será el desarrollo de un modelo de clasificación para imagenes médicas en el contexto de detección de neumonía en radiografías pulmonares.
 
-* `src`: acá debe ir el código o implementación del proyecto en Python.
-* `docs`: en esta carpeta se encuentran las plantillas de los documentos definidos en la metodología.
-* `scripts`: esta carpeta debe contener los scripts/notebooks que se ejecutarán.
+Esta proyecto contiene las siguientes carpetas y archivos:
+
+* `src`: Implementación del proyecto en Python.
+* `docs`: Documentos definidos en la metodología.
+* `scripts`: Esta carpeta debe contener los scripts/notebooks que se ejecutarán.
 * `pyproject.toml`: archivo de definición del proyecto en Python.
+
+Finalmente, fue realizado por:
+
+
+1.  (David Fernando Adames Rondón)[https://github.com/dfadames]
+
+2.  (Reinaldo Toledo Leguizamón)[https://github.com/Rey7910]
+
+3.  (Omar David Toledo Leguizamón)[https://github.com/omardtl24]
