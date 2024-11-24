@@ -14,8 +14,8 @@ Esta proyecto contiene las siguientes carpetas y archivos:
 Finalmente, fue realizado por:
 
 
-1.  (David Fernando Adames Rondón)[https://github.com/dfadames]
+1.  [David Fernando Adames Rondón](https://github.com/dfadames)
 
-2.  (Reinaldo Toledo Leguizamón)[https://github.com/Rey7910]
+2.  [Reinaldo Toledo Leguizamón](https://github.com/Rey7910)
 
-3.  (Omar David Toledo Leguizamón)[https://github.com/omardtl24]
+3.  [Omar David Toledo Leguizamón](https://github.com/omardtl24)
