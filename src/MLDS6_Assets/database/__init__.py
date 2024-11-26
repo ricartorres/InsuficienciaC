@@ -1,6 +1,25 @@
 import os
 import json
 from kaggle.api.kaggle_api_extended import KaggleApi # type: ignore
+import shutil
+
+def deleteDirectoryAndContents(directory):
+    """
+    Deletes a directory and all its contents (files and subdirectories).
+
+    Parameters:
+    directory (str): The path to the directory to delete.
+    """
+    try:
+        # Delete the directory and its contents
+        shutil.rmtree(directory)
+        print(f"Deleted directory and all contents: {directory}")
+    except FileNotFoundError:
+        print(f"Directory not found: {directory}")
+    except PermissionError:
+        print(f"Permission denied: {directory}")
+    except Exception as e:
+        print(f"An error occurred: {e}")
 
 
 def authenticateKaggle(kaggle_json_path="~/.kaggle/kaggle.json"):
@@ -65,4 +84,4 @@ def downloadUnzipDataset(api, dataset_url, download_path="./datasets"):
     # Download and unzip dataset
     print(f"Downloading and unzipping dataset: {dataset_slug} to {download_path}...\n")
     api.dataset_download_files(dataset_slug, path=download_path, unzip=True, quiet=False)
-    print(f"Dataset '{dataset_slug}' downloaded and unzipped to '{download_path}'.")
+    print(f"Dataset '{dataset_slug}' downloaded and unzipped to '{download_path}'.\n")
