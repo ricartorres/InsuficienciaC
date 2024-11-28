@@ -22,21 +22,30 @@
 
 ## Metodología
 
-[Descripción breve de la metodología que se utilizará para llevar a cabo el proyecto]
+La metodología seguirá las siguientes etapas:
+
+1) Entendimiento del negocio y carga de datos: Definir objetivos y criterios de éxito, asegurando que el modelo predictivo cumpla con una precisión superior al 70% en identificar vuelos cancelados o retrasados y una estimación razonable del tiempo de retraso.
+
+2) Preprocesamiento, análisis exploratorio, reporte del resumen: Limpiar y explorar el conjunto de datos histórico de vuelos (2018-2023), seleccionando variables clave como horarios, aeropuertos, aerolíneas, motivos de cancelación y condiciones climáticas.
+
+3) Modelamiento y extracción de características: Desarrollar modelos predictivos utilizando distinto algoritmos de machine learning para clasificar el estado de los vuelos y estimar el tiempo de retraso, evaluando métricas como precisión y MAE.
+
+4) Despliegue: Crear un prototipo funcional para ejecutar el modelo con datos históricos, documentar scripts reproducibles y generar recomendaciones para su integración en sistemas futuros.
+
+5) Evaluación y Entrega Final: Validar los resultados del modelo frente a los objetivos definidos y presentar los hallazgos principales por medio de un video informativo.
 
 ## Cronograma
 
 | Etapa | Duración Estimada | Fechas |
 |------|---------|-------|
-| Entendimiento del negocio y carga de datos | 1 semana | del 1 de mayo al 15 de mayo |
-| Preprocesamiento, análisis exploratorio | 4 semanas | del 16 de mayo al 15 de junio |
-| Modelamiento y extracción de características | 4 semanas | del 16 de junio al 15 de julio |
-| Despliegue | 2 semanas | del 16 de julio al 31 de julio |
-| Evaluación y entrega final | 3 semanas | del 1 de agosto al 21 de agosto |
-
-Hay que tener en cuenta que estas fechas son de ejemplo, estas deben ajustarse de acuerdo al proyecto.
+| Entendimiento del negocio y carga de datos | 1 semana | del 20 de noviembre al 28 de noviembre |
+| Preprocesamiento, análisis exploratorio, reporte del resumen | 1 semana | del 29 de noviembre al 5 de diciembre |
+| Modelamiento y extracción de características | 1 semana | del 6 de diciembre al 12 de diciembre |
+| Despliegue | 1 semana | del 13 de diciembre al 19 de diciembre |
+| Evaluación y entrega final | 2 semanas | del 13 de diciembre al 21 de diciembre |
 
 ## Equipo del Proyecto
 
-- [Nombre y cargo del líder del proyecto]
-- [Nombre y cargo de los miembros del equipo]
+- Cristhian David Mora Uribe cdmorau@unal.edu.co
+- Martin Camilo Rodriguez Murcia mrodriguezmu@unal.edu.co
+- Nestor Steven Negrete Pinilla narutones98@gmail.com
