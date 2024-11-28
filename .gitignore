@@ -7,3 +7,10 @@ credentials*
 # Python environments
 */env/
 env/
+
+#Data paths
+data/
+
+#Kaggle credentials
+.kaggle/
+**/kaggle.json
