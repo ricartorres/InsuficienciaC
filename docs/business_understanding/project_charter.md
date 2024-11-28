@@ -2,23 +2,23 @@
 
 ## Nombre del Proyecto
 
-[Nombre del proyecto aquí]
+Predicciòn del status de los vuelos
 
 ## Objetivo del Proyecto
 
-[Descripción breve del objetivo del proyecto y por qué es importante]
+Desarrollar un modelo predictivo que permita determinar la probabilidad de que un vuelo sea cancelado o experimenta retrasos
 
 ## Alcance del Proyecto
 
 ### Incluye:
 
-- [Descripción de los datos disponibles]
-- [Descripción de los resultados esperados]
-- [Criterios de éxito del proyecto]
+- Se utilizará el conjunto de datos de vuelos que abarca 5 años desde enero de 2018. Este conjunto incluye información sobre vuelos, como horarios, aerolíneas, aeropuertos de origen y destino, motivos de cancelación y retrasos, así como condiciones climáticas relevantes.
+- Se espera desarrollar un modelo predictivo que pueda identificar con precisión si un vuelo será cancelado o retrasado. Además, se pretende estimar el tiempo de retraso en caso de que ocurra.
+- Será considerado exitoso si se logra una precisión superior al 70% en las predicciones del estado de los vuelos y una estimación razonable del tiempo de retraso. 
 
 ### Excluye:
 
-- [Descripción de lo que no está incluido en el proyecto]
+- Este proyecto no incluirá la implementación de un sistema en tiempo real para la predicción de vuelos ni el análisis de datos más allá del periodo mencionado. Tampoco se abordarán aspectos relacionados con la gestión operativa de las aerolíneas o la logística asociada a las cancelaciones y retrasos.
 
 ## Metodología
 
