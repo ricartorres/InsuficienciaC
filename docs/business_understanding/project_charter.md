@@ -22,7 +22,17 @@
 
 ## Metodología
 
-[Descripción breve de la metodología que se utilizará para llevar a cabo el proyecto]
+La metodología seguirá las siguientes etapas:
+
+1) Entendimiento del negocio y carga de datos: Definir objetivos y criterios de éxito, asegurando que el modelo predictivo cumpla con una precisión superior al 70% en identificar vuelos cancelados o retrasados y una estimación razonable del tiempo de retraso.
+
+2) Preprocesamiento, análisis exploratorio, reporte del resumen: Limpiar y explorar el conjunto de datos histórico de vuelos (2018-2023), seleccionando variables clave como horarios, aeropuertos, aerolíneas, motivos de cancelación y condiciones climáticas.
+
+3) Modelamiento y extracción de características: Desarrollar modelos predictivos utilizando distinto algoritmos de machine learning para clasificar el estado de los vuelos y estimar el tiempo de retraso, evaluando métricas como precisión y MAE.
+
+4) Despliegue: Crear un prototipo funcional para ejecutar el modelo con datos históricos, documentar scripts reproducibles y generar recomendaciones para su integración en sistemas futuros.
+
+5) Evaluación y Entrega Final: Validar los resultados del modelo frente a los objetivos definidos y presentar los hallazgos principales por medio de un video informativo.
 
 ## Cronograma
 
