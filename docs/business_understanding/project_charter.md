@@ -40,19 +40,3 @@ Hay que tener en cuenta que estas fechas son de ejemplo, estas deben ajustarse d
 
 - [Nombre y cargo del líder del proyecto]
 - [Nombre y cargo de los miembros del equipo]
-
-## Presupuesto
-
-[Descripción del presupuesto asignado al proyecto]
-
-## Stakeholders
-
-- [Nombre y cargo de los stakeholders del proyecto]
-- [Descripción de la relación con los stakeholders]
-- [Expectativas de los stakeholders]
-
-## Aprobaciones
-
-- [Nombre y cargo del aprobador del proyecto]
-- [Firma del aprobador]
-- [Fecha de aprobación]
