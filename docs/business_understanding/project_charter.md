@@ -85,7 +85,7 @@ Puede agregar una lista de actividades con tiempos estimados, un diagrama de Gan
 
 La propuesta de planeación para el desarollo de este proyecto, se defino ttomando como base los entregables semanales descritos. Por esto, se definió el siguiente diagrama de Gant con las 5 fases más importantes del proyecto que se tendrán en cuenta a lo largo del modulo.
 
-
+![alt text] (src/MLDS6_Assets/images/Methodology.PNG)
 
 En este momento se va a cargar el dataset desde el repositorio de Kaggle. El dataset que se usará es público, por lo que no habrán problemas con el acceso a los datos ni se hará un requerimiento de credenciales
 
