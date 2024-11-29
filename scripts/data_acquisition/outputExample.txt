@@ -1,0 +1,63 @@
+Downloading flight-delay-dataset-20182022.zip to ./flight_delays
+100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████▊| 3.73G/3.73G [02:08<00:00, 40.6MB/s]
+100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 3.73G/3.73G [02:08<00:00, 31.1MB/s]
+Leyendo los primeros 5 archivos en la carpeta raw...
+Archivo 1: ./flight_delays/raw/Flights_2020_10.csv
+   Year  Quarter  Month  DayofMonth  DayOfWeek  FlightDate Marketing_Airline_Network  ... Div5WheelsOn  Div5TotalGTime Div5LongestGTime  Div5WheelsOff  Div5TailNum  Duplicate  Unnamed: 119
+0  2020        4     10          15          4  2020-10-15                        UA  ...          NaN             NaN              NaN            NaN          NaN          N           NaN
+1  2020        4     10          23          5  2020-10-23                        UA  ...          NaN             NaN              NaN            NaN          NaN          N           NaN
+2  2020        4     10          20          2  2020-10-20                        UA  ...          NaN             NaN              NaN            NaN          NaN          N           NaN
+3  2020        4     10          20          2  2020-10-20                        UA  ...          NaN             NaN              NaN            NaN          NaN          N           NaN
+4  2020        4     10          17          6  2020-10-17                        UA  ...          NaN             NaN              NaN            NaN          NaN          N           NaN
+
+[5 rows x 120 columns]
+
+==================================================
+
+Archivo 2: ./flight_delays/raw/Flights_2020_11.csv
+   Year  Quarter  Month  DayofMonth  DayOfWeek  FlightDate Marketing_Airline_Network  ... Div5WheelsOn  Div5TotalGTime Div5LongestGTime  Div5WheelsOff  Div5TailNum  Duplicate  Unnamed: 119
+0  2020        4     11           1          7  2020-11-01                        HA  ...          NaN             NaN              NaN            NaN          NaN          N           NaN
+1  2020        4     11           2          1  2020-11-02                        HA  ...          NaN             NaN              NaN            NaN          NaN          N           NaN
+2  2020        4     11           3          2  2020-11-03                        HA  ...          NaN             NaN              NaN            NaN          NaN          N           NaN
+3  2020        4     11           4          3  2020-11-04                        HA  ...          NaN             NaN              NaN            NaN          NaN          N           NaN
+4  2020        4     11           5          4  2020-11-05                        HA  ...          NaN             NaN              NaN            NaN          NaN          N           NaN
+
+[5 rows x 120 columns]
+
+==================================================
+
+Archivo 3: ./flight_delays/raw/Flights_2021_9.csv
+   Year  Quarter  Month  DayofMonth  DayOfWeek  FlightDate Marketing_Airline_Network  ... Div5WheelsOn  Div5TotalGTime Div5LongestGTime  Div5WheelsOff  Div5TailNum  Duplicate  Unnamed: 119
+0  2021        3      9          15          3  2021-09-15                        DL  ...          NaN             NaN              NaN            NaN          NaN          N           NaN
+1  2021        3      9          15          3  2021-09-15                        DL  ...          NaN             NaN              NaN            NaN          NaN          N           NaN
+2  2021        3      9          15          3  2021-09-15                        DL  ...          NaN             NaN              NaN            NaN          NaN          N           NaN
+3  2021        3      9          15          3  2021-09-15                        DL  ...          NaN             NaN              NaN            NaN          NaN          N           NaN
+4  2021        3      9          15          3  2021-09-15                        DL  ...          NaN             NaN              NaN            NaN          NaN          N           NaN
+
+[5 rows x 120 columns]
+
+==================================================
+
+Archivo 4: ./flight_delays/raw/Flights_2021_8.csv
+   Year  Quarter  Month  DayofMonth  DayOfWeek  FlightDate Marketing_Airline_Network  ... Div5WheelsOn  Div5TotalGTime Div5LongestGTime  Div5WheelsOff  Div5TailNum  Duplicate  Unnamed: 119
+0  2021        3      8          15          7  2021-08-15                        DL  ...          NaN             NaN              NaN            NaN          NaN          N           NaN
+1  2021        3      8          15          7  2021-08-15                        DL  ...          NaN             NaN              NaN            NaN          NaN          N           NaN
+2  2021        3      8          15          7  2021-08-15                        DL  ...          NaN             NaN              NaN            NaN          NaN          N           NaN
+3  2021        3      8          15          7  2021-08-15                        DL  ...          NaN             NaN              NaN            NaN          NaN          N           NaN
+4  2021        3      8          15          7  2021-08-15                        DL  ...          NaN             NaN              NaN            NaN          NaN          N           NaN
+
+[5 rows x 120 columns]
+
+==================================================
+
+Archivo 5: ./flight_delays/raw/Flights_2020_12.csv
+   Year  Quarter  Month  DayofMonth  DayOfWeek  FlightDate Marketing_Airline_Network  ... Div5WheelsOn  Div5TotalGTime Div5LongestGTime  Div5WheelsOff  Div5TailNum  Duplicate  Unnamed: 119
+0  2020        4     12           1          2  2020-12-01                        DL  ...          NaN             NaN              NaN            NaN          NaN          N           NaN
+1  2020        4     12           3          4  2020-12-03                        DL  ...          NaN             NaN              NaN            NaN          NaN          N           NaN
+2  2020        4     12           4          5  2020-12-04                        DL  ...          NaN             NaN              NaN            NaN          NaN          N           NaN
+3  2020        4     12           6          7  2020-12-06                        DL  ...          NaN             NaN              NaN            NaN          NaN          N           NaN
+4  2020        4     12           7          1  2020-12-07                        DL  ...          NaN             NaN              NaN            NaN          NaN          N           NaN
+
+[5 rows x 120 columns]
+
+==================================================
