@@ -1,3 +1,5 @@
+![Descripción de la imagen](images/Falla-cardiaca.jpg)
+
 # Project Charter - Entendimiento del Negocio
 
 ## Nombre del Proyecto
@@ -26,15 +28,7 @@
 
 ## Cronograma
 
-| Etapa | Duración Estimada | Fechas |
-|------|---------|-------|
-| Entendimiento del negocio y carga de datos | 2 semanas | del 1 de mayo al 15 de mayo |
-| Preprocesamiento, análisis exploratorio | 4 semanas | del 16 de mayo al 15 de junio |
-| Modelamiento y extracción de características | 4 semanas | del 16 de junio al 15 de julio |
-| Despliegue | 2 semanas | del 16 de julio al 31 de julio |
-| Evaluación y entrega final | 3 semanas | del 1 de agosto al 21 de agosto |
-
-Hay que tener en cuenta que estas fechas son de ejemplo, estas deben ajustarse de acuerdo al proyecto.
+![Descripción de la imagen](images/CronogramaFallaCardiaca.png)
 
 ## Equipo del Proyecto
 
