@@ -118,10 +118,16 @@ Este archivo lista las librerías necesarias para el despliegue:
 **6. Configuración de Railway**
 Railway asigna dinámicamente un puerto, por lo que el servidor debe ejecutarse de la siguiente manera:
 - uvicorn main:app --host 0.0.0.0 --port ${PORT}
+- el puerto seleccionado fue el 8082
+![Descripción de la imagen](images/ConfiguracionPuerto.png)
 
-**Configuración de Variables de Entorno en Railway:**
+
+**Configuración de Variables de Entorno y parametros settings en Railway:**
 - Accede al panel de Railway → Configuración → Variables de entorno.
 - Agrega lo siguiente: MODEL_PATH=models/xgboost_model.joblib
+
+![Descripción de la imagen](images/ConfiguracionRuta.png)
+
 
 **Estructura de Archivos del Proyecto**
 El proyecto debe tener la siguiente estructura:heart_failure_api/
@@ -155,7 +161,7 @@ El proyecto debe tener la siguiente estructura:heart_failure_api/
   - Dependencias: requirements.txt
 - Variables de Entorno:
   - MODEL_PATH: Ruta del modelo.
-  - PORT: Puerto de ejecución (proporcionado por Railway).
+  - PORT: Puerto de ejecución (parametrizado en Railway).
 
 
 
@@ -220,6 +226,8 @@ d) Desplegar la API:
 e) Verificar el despliegue:
 - Una vez completado el despliegue, Railway proporcionará una URL pública.
 - Accede a https://<tu-app>.railway.app/docs para verificar la documentación de la API.
+
+![Descripción de la imagen](images/DespliegueRailway.png)
 
 **3. Instrucciones de Uso**
 
