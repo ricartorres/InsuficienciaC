@@ -116,6 +116,7 @@ Este archivo lista las librerías necesarias para el despliegue:
 - joblib==1.2.0
 - pandas==1.3.5
 - xgboost==1.7.3
+- scikit-learn==1.5.2
 
 **6. Configuración de Railway**
 Railway asigna dinámicamente un puerto, por lo que el servidor debe ejecutarse de la siguiente manera:
@@ -174,8 +175,8 @@ Estas instrucciones detallan cómo instalar la API de predicción del modelo XGB
 
 a) Clonar el repositorio desde GitHub:
 - Abre tu terminal y clona el repositorio que contiene el código y el modelo:
-  - git clone https://github.com/usuario/heart_failure_api.git
-  - cd heart_failure_api
+  - git clone https://github.com/ricartorres/InsuficienciaC.git
+  - cd scripts/evaluation/
 
 b) Crear el entorno virtual (opcional, pero recomendado):
 Se recomienda crear un entorno virtual para evitar conflictos entre dependencias:
@@ -205,6 +206,8 @@ e) Probar el servidor localmente (opcional):
 * Antes del despliegue en Railway, verifica que la API funcione localmente: uvicorn main:app --reload
 * Abre tu navegador en http://127.0.0.1:8000/docs para interactuar con la API.
 
+f) En el archivo Despliegue_insuficiencia_Cardíaca.ipynb se encuentra el cargue y ejecución del modelo
+
 **2. Instrucciones de Configuración**
 Para desplegar la API en Railway, sigue estos pasos:
 
@@ -212,13 +215,15 @@ a) Configurar el proyecto en Railway:
 - Ve a la plataforma Railway: https://railway.app.
 - Inicia sesión con tu cuenta de GitHub.
 - Selecciona New Project → Deploy from GitHub Repo.
-- Conecta tu repositorio clonado (heart_failure_api).
+- Conecta tu repositorio clonado en github.
 
 b) Agregar variables de entorno:
 - En la sección de Environment Variables de Railway, agrega la siguiente variable: MODEL_PATH=models/xgboost_model.joblib
+- se agrega el parametro:
+  ![Descripción de la imagen](images/ConfiguracionRuta.png)
 
 c) Configuración del servidor:
-- Railway asigna dinámicamente el puerto, por lo que no necesitas definirlo manualmente.
+- Railway asigna dinámicamente el puerto 8089, si hay error por que ya se esta usando el puerto hay que definirlo manualmente.
 - Asegúrate de que main.py use la variable PORT proporcionada por Railway.
 
 d) Desplegar la API:
@@ -234,18 +239,7 @@ e) Verificar el despliegue:
 
 **3. Instrucciones de Uso**
 
-a) Acceder a la API
-- La API expone dos rutas principales:
-- Ruta de bienvenida (GET):
-  - URL: https://<tu-app>.railway.app/
-  - Descripción: Devuelve un mensaje de bienvenida.
-  - Ejemplo de respuesta
-   
--    {
--  "message": "Bienvenido a la API de Predicción de Insuficiencia Cardíaca - XGBoost"
--    }
-
-b) Ruta de predicción (POST):
+a) Acceder a la API y Ruta de predicción (POST):
 - URL: https://<tu-app>.railway.app/predict
 - Descripción: Recibe los datos del paciente y devuelve una predicción.
 - Formato de entrada (JSON)
@@ -276,7 +270,7 @@ Abre tu terminal y clona el repositorio que contiene el código y el modelo:
 bash
 Copiar código
 git clone https://github.com/usuario/heart_failure_api.git
-cd heart_failure_api
+cd InsuficienciaC
 Crear el entorno virtual (opcional, pero recomendado):
 Se recomienda crear un entorno virtual para evitar conflictos entre dependencias:
 
@@ -344,13 +338,7 @@ La API expone dos rutas principales:
 Ruta de bienvenida (GET):
 
 URL: https://<tu-app>.railway.app/
-Descripción: Devuelve un mensaje de bienvenida.
-Ejemplo de respuesta:
-json
-Copiar código
-{
-  "message": "Bienvenido a la API de Predicción de Insuficiencia Cardíaca - XGBoost"
-}
+
 Ruta de predicción (POST):
 
 URL: https://<tu-app>.railway.app/predict
@@ -359,29 +347,18 @@ Formato de entrada (JSON):
 json
 Copiar código
 {
-  "age": 65,
-  "anaemia": 0,
-  "creatinine_phosphokinase": 120,
-  "diabetes": 1,
   "ejection_fraction": 45,
-  "high_blood_pressure": 0,
-  "platelets": 250000.0,
   "serum_creatinine": 1.2,
-  "serum_sodium": 137,
-  "sex": 1,
-  "smoking": 1,
   "time": 120
 }
 Ejemplo de Respuesta:
 json
 Copiar código
 {
-  "prediction": 1,
-  "result": "Fallecimiento"
+  "is_insuficiencia": 1
 }
 Parámetros:
-prediction: Clase predicha (0 = No Fallecimiento, 1 = Fallecimiento).
-result: Interpretación legible del resultado.
+is_insuficiencia es prediction de Clase predicha (0 = No Fallecimiento, 1 = Fallecimiento).
 
 **4. Instrucciones de Mantenimiento**
 Para mantener el modelo y la API desplegada, se deben realizar las siguientes tareas periódicamente:
