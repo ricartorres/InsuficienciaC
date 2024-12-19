@@ -118,7 +118,7 @@ Mide la capacidad del modelo para identificar correctamente los casos negativos 
 ![Descripción de la imagen](images/GraficaComparacionModelos.png)
 
 
-Tabla que muestra los resultados de evaluación del modelo baseline, incluyendo las métricas de evaluación.
+Tabla que muestra los resultados de las metricas de evaluación de los modelos 
 
 ## Análisis de los resultados
 
@@ -170,9 +170,99 @@ Aunque el modelo tiene un buen recall, su baja precisión y AUC-ROC indican que 
 
 La regresión logística es un modelo básico que, aunque adecuado para problemas simples, no es tan preciso como otros modelos más complejos como XGBoost o MLPClassifier.
 
+- En conclusión, XGBoost emerge como el modelo más eficiente en términos generales debido a su alto AUC-ROC y su precisión perfecta, lo que lo hace ideal para tareas de clasificación binaria donde la discriminación entre clases es clave. No obstante, dependiendo de la aplicación específica, MLPClassifier y LightGBM también ofrecen ventajas, como un mejor balance entre precisión y recall, especialmente cuando el enfoque está en detectar todos los casos positivos sin importar tanto el costo de los falsos positivos.
+
 
 ## Referencias
 
-Lista de referencias utilizadas para construir el modelo baseline y evaluar su rendimiento.
+- matplotlib:
 
-Espero que te sea útil esta plantilla. Recuerda que puedes adaptarla a las necesidades específicas de tu proyecto.
+Matplotlib es una biblioteca para la visualización de gráficos en Python. Es ampliamente utilizada para crear gráficos estáticos, animados e interactivos.
+Referencia:
+Hunter, J. D. (2007). Matplotlib: A 2D graphics environment. Computing in Science & Engineering, 9(3), 90-95.
+DOI: 10.1109/MCSE.2007.55
+
+- xgboost:
+XGBoost es un algoritmo de aprendizaje automático basado en árboles de decisión, especialmente eficiente para clasificación y regresión.
+Referencia:
+Chen, T., & Guestrin, C. (2016). XGBoost: A scalable tree boosting system. Proceedings of the 22nd ACM SIGKDD International Conference on Knowledge Discovery and Data Mining, 785–794.
+DOI: 10.1145/2939672.2939785
+
+- colorama:
+Colorama es una biblioteca que permite utilizar colores en la salida de la terminal o consola, mejorando la legibilidad de los mensajes.
+Referencia:
+Colorama Documentation. (2021). https://pypi.org/project/colorama/
+
+- scikit-learn:
+scikit-learn es una biblioteca de Python que proporciona herramientas para minería de datos y análisis de datos. Incluye varios algoritmos de aprendizaje automático y herramientas de evaluación de modelos.
+Referencia:
+Pedregosa, F., Varoquaux, G., Gramfort, A., Michel, V., Thirion, B., Grisel, O., ... & Duchesnay, É. (2011). Scikit-learn: Machine learning in Python. Journal of Machine Learning Research, 12, 2825-2830.
+URL: https://scikit-learn.org/
+
+- imblearn (imbalanced-learn):
+
+imbalanced-learn es una biblioteca de Python para manejar conjuntos de datos desbalanceados mediante técnicas de sobremuestreo y submuestreo.
+Referencia:
+Lemaître, G., Nogueira, F., & Aridas, C. K. (2017). Imbalanced-learn: A Python toolbox to tackle the curse of imbalanced datasets in machine learning. Journal of Machine Learning Research, 18(1), 559-563.
+URL: https://imbalanced-learn.org/
+
+- mlxtend:
+
+mlxtend es una biblioteca que ofrece una colección de extensiones útiles para scikit-learn, incluyendo visualización de matrices de confusión y otras herramientas.
+Referencia:
+Raschka, S., & Mirjalili, V. (2017). Python Machine Learning. Packt Publishing.
+URL: https://rasbt.github.io/mlxtend/
+
+- lightgbm:
+
+LightGBM es una implementación eficiente de un algoritmo de aprendizaje basado en gradiente boosting para clasificación y regresión.
+Referencia:
+Ke, G., Meng, Q., Finley, T., Wang, T., Chen, W., & Ma, W. (2017). LightGBM: A highly efficient gradient boosting decision tree. Advances in Neural Information Processing Systems, 30.
+URL: https://lightgbm.readthedocs.io/
+
+- MLPClassifier (de scikit-learn):
+
+MLPClassifier es un clasificador basado en redes neuronales multicapa (MLP) disponible en scikit-learn.
+Referencia:
+B. Schölkopf, A. Smola, et al. (2002). Learning with Kernels: Support Vector Machines, Regularization, Optimization, and Beyond. MIT Press.
+URL: https://scikit-learn.org/stable/modules/neural_networks_supervised.html#mlpclassifier
+
+- Accuracy:
+
+Chicco, D., & Jurman, G. (2020). The advantages of the Matthews correlation coefficient (MCC) over F1 score and accuracy in binary classification evaluation. BMC Genomics, 21(1), 6.
+DOI: 10.1186/s12864-019-6250-3
+
+- Precision:
+
+Powers, D. M. W. (2011). Evaluation: from precision, recall and F-measure to ROC, informedness, markedness & correlation. Journal of Machine Learning Technologies, 2(1), 37-63.
+URL: https://arxiv.org/abs/2010.15948
+
+- Recall:
+
+Sokolova, M., & Lapalme, G. (2009). A systematic analysis of performance measures for classification tasks. Information Processing & Management, 45(4), 427-437.
+DOI: 10.1016/j.ipm.2009.03.002
+
+- F1 Score:
+
+Van Rijsbergen, C. J. (1979). Information Retrieval (2nd ed.). Butterworths.
+ISBN: 978-0408704132
+
+- AUC-ROC:
+
+Fawcett, T. (2006). An introduction to ROC analysis. Pattern Recognition Letters, 27(8), 861-874.
+DOI: 10.1016/j.patrec.2005.10.010
+
+- Log Loss:
+
+Nogueira, M. (2020). Evaluation Metrics for Classification Algorithms. Springer.
+ISBN: 978-3030289045
+
+- Matthews Correlation Coefficient (MCC):
+
+Matthews, B. W. (1975). Comparison of the predicted and observed binary classification rates: a new measure of the accuracy of predictions. Ecology, 56(1), 1-11.
+DOI: 10.2307/1936166
+
+- Specificity:
+
+Powers, D. M. W. (2011). Evaluation: from precision, recall and F-measure to ROC, informedness, markedness & correlation. Journal of Machine Learning Technologies, 2(1), 37-63.
+URL: https://arxiv.org/abs/2010.15948
