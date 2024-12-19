@@ -50,12 +50,14 @@ MCC (Matthews Correlation Coefficient): 0.80
 
 Especificidad: 100.00%
 
+![Descripción de la imagen](images/Matrix.png)
+
 El modelo muestra un desempeño sobresaliente en la clasificación de eventos negativos, pero la sensibilidad limitada indica que puede mejorar en la detección de casos positivos. La curva ROC (AUC = 0.96) destaca su capacidad general para discriminar entre clases.
 
 Matriz de Confusión:
 La matriz de confusión revela que el modelo clasifica correctamente todos los casos negativos, pero falla en algunos casos positivos.
 
-![Descripción de la imagen](images/MatrizConfusion.png)
+![Descripción de la imagen](images/Maconfusion.png)
 
 
 Visualizaciones:
