@@ -47,7 +47,6 @@ Mide la proporción de predicciones correctas sobre el total de predicciones rea
 
 - Formula:![Descripción de la imagen](images/FormulaAcurracy.png)
 
-  
   TP = Verdaderos positivos
   TN = Verdaderos negativos
   FP = Falsos positivos
@@ -61,8 +60,6 @@ Mide la proporción de predicciones positivas correctas sobre todas las predicci
 
 - Formula:![Descripción de la imagen](images/FormulaPrecision.png)
   
-
-
 - Interpretación:
    Una alta precisión significa que cuando el modelo predice positivo, es muy probable que esté en lo cierto. Se usa cuando es más importante evitar que un falso positivo ocurra.
 
@@ -71,8 +68,6 @@ Mide la proporción de casos positivos reales que el modelo fue capaz de identif
 
 - Formula:![Descripción de la imagen](images/FormulaRecall.png)
   
-
-
 - Interpretación:
    Un alto recall significa que el modelo es bueno para identificar casos positivos, incluso si a veces comete falsos positivos. Es crítico en situaciones donde perder casos positivos (falsos negativos) tiene consecuencias graves.
 
@@ -81,8 +76,6 @@ Es el promedio armónico entre la precisión y el recall, y se utiliza cuando es
 
 - Formula:![Descripción de la imagen](images/FormulaF1.png)
   
-
-
 - Interpretación:
    El F1 es particularmente útil cuando se enfrentan a datos desbalanceados (más instancias de una clase que de otra) y cuando tanto los falsos positivos como los falsos negativos tienen un impacto significativo.
 
@@ -121,12 +114,9 @@ Mide la capacidad del modelo para identificar correctamente los casos negativos 
 
 ### Resultados de evaluación
 
-1. XGBoost
-   
-3. MLPClassifier (Perceptrón Multicapa)
-4. LightGBM
-5. Random Forest
-6. Regresión Logística
+![Descripción de la imagen](images/ValoresMetricas.png)
+![Descripción de la imagen](images/GraficaComparacionModelos.png)
+
 
 Tabla que muestra los resultados de evaluación del modelo baseline, incluyendo las métricas de evaluación.
 
