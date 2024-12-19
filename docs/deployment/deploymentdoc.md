@@ -251,25 +251,15 @@ b) Ruta de predicción (POST):
 - Formato de entrada (JSON)
 
 - {
-  - "age": 65,
-  - "anaemia": 0,
-  - "creatinine_phosphokinase": 120,
-  - "diabetes": 1,
   - "ejection_fraction": 45,
-  - "high_blood_pressure": 0,
-  - "platelets": 250000.0,
   - "serum_creatinine": 1.2,
-  - "serum_sodium": 137,
-  - "sex": 1,
-  - "smoking": 1,
   - "time": 120
 - }
 
 - Ejemplo de Respuesta
 - {
-  - "prediction": 1,
-  - "result": "Fallecimiento"
-- }
+  - "is_insuficiencia": 1,  "Fallecimiento"
+  }
 
 - Parámetros:
   - prediction: Clase predicha (0 = No Fallecimiento, 1 = Fallecimiento).
