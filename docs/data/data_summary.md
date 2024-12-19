@@ -90,7 +90,36 @@ Fallecimiento (DEATH_EVENT):
 
 ## Resumen de calidad de los datos
 
-En esta sección se presenta un resumen de la calidad de los datos. Se describe la cantidad y porcentaje de valores faltantes, valores extremos, errores y duplicados. También se muestran las acciones tomadas para abordar estos problemas.
+**1. Valores Faltantes**
+- Cantidad y Porcentaje: Tras el análisis exploratorio, no se identificaron valores faltantes en el conjunto de datos. Esto indica que todas las variables cuentan con observaciones completas, lo que evita la necesidad de técnicas de imputación o eliminación de registros.
+- Acciones Tomadas: No se realizaron acciones para tratar valores faltantes, ya que no existen en el dataset.
+
+**2. Valores Extremos**
+- Identificación:
+  - Las variables numéricas como serum_creatinine y serum_sodium presentan valores extremos que podrían influir significativamente en los análisis y modelos.
+  - Por ejemplo, en serum_creatinine, se observaron valores considerablemente altos (por encima de 4 mg/dL), lo que puede representar casos clínicos reales, pero también puede ser ruido.
+- Acciones Tomadas:
+  - Los valores extremos no se eliminaron ni transformaron, ya que pueden representar información valiosa sobre casos clínicos específicos. Sin embargo, se recomienda normalizar estas variables para modelos predictivos.
+ 
+**3. Errores**
+- Identificación: No se detectaron valores claramente erróneos en el conjunto de datos, como números fuera de rango o inconsistencias en variables categóricas.
+- Acciones Tomadas: No fue necesario corregir errores, ya que no se identificaron problemas en las observaciones.
+
+**4. Duplicados**
+- Identificación:
+  - Se verificó la presencia de registros duplicados en el conjunto de datos.
+  - No se encontraron duplicados, lo que sugiere que cada fila representa un caso único.
+- Acciones Tomadas: No se eliminaron registros, ya que no existían duplicados.
+
+**Conclusión**
+- La calidad de los datos es alta, ya que:
+1. No hay valores faltantes ni duplicados, lo que evita pérdida de información o sesgos por eliminación de registros.
+
+2. Los valores extremos están presentes en algunas variables relevantes como serum_creatinine. Sin embargo, dado que estos valores podrían ser clínicamente significativos, no se eliminaron, pero se recomienda manejarlos con técnicas como normalización o transformación logarítmica en análisis posteriores.
+3. No se detectaron errores evidentes en los datos.
+
+Este conjunto de datos está en condiciones óptimas para proceder con análisis avanzados y modelado predictivo.
+
 
 ## Variable objetivo
 
