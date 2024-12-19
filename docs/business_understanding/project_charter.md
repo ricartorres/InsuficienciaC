@@ -377,6 +377,25 @@ d) Revisión del proyecto:
 
 ![Descripción de la imagen](images/CronogramaFallaCardiaca.png)
 
+## Reuniones de Trabajo
+
+Semana1
+![Descripción de la imagen](images/Semana1.png)
+
+Semana2
+![Descripción de la imagen](images/Semana2.png)
+
+Semana3
+![Descripción de la imagen](images/Semana3.png)
+
+Semana4
+![Descripción de la imagen](images/Semana4.png)
+
+Semana5
+![Descripción de la imagen](images/Semana5.png)
+
+
+
 ## Equipo del Proyecto
 
 - Ricardo Torres
@@ -384,16 +403,18 @@ d) Revisión del proyecto:
 
 ## Presupuesto
 
-[Descripción del presupuesto asignado al proyecto]
+Este se encuentra en el plan de direccionamiento de proyecto según definición de oficina de proyectos
 
 ## Stakeholders
 
-- [Nombre y cargo de los stakeholders del proyecto]
-- [Descripción de la relación con los stakeholders]
-- [Expectativas de los stakeholders]
+Los stakeHolders se encuentran en el archivo de interesados relacionado al acta de constitución del proyecto
 
 ## Aprobaciones
 
-- [Nombre y cargo del aprobador del proyecto]
+- Oscar Alberto Bustos Briñez
 - [Firma del aprobador]
-- [Fecha de aprobación]
+- 21 Diciembre 2024
+
+- Jorge Eliecer Camargo Mendoza
+- [Firma del aprobador]
+- 21 Diciembre 2024
