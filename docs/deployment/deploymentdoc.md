@@ -269,8 +269,8 @@ Abre tu terminal y clona el repositorio que contiene el código y el modelo:
 
 bash
 Copiar código
-git clone https://github.com/usuario/heart_failure_api.git
-cd InsuficienciaC
+git clone https://github.com/ricartorres/InsuficienciaC/.git
+cd scripts/evaluation
 Crear el entorno virtual (opcional, pero recomendado):
 Se recomienda crear un entorno virtual para evitar conflictos entre dependencias:
 
