@@ -1,3 +1,5 @@
+![Descripción de la imagen](images/Falla-cardiaca.jpg)
+
 # Reporte del Modelo Baseline
 
 Este documento contiene los resultados de los modelos entrenados.
@@ -43,7 +45,8 @@ Descripción de las métricas utilizadas para evaluar el rendimiento del modelo.
 #### 1. Accuracy
 Mide la proporción de predicciones correctas sobre el total de predicciones realizadas. Es decir, cuántas veces el modelo acertó entre todos los casos.
 
-- Formula:
+- Formula:![Descripción de la imagen](images/FormulaAcurracy.png)
+
   
   TP = Verdaderos positivos
   TN = Verdaderos negativos
@@ -56,7 +59,7 @@ Mide la proporción de predicciones correctas sobre el total de predicciones rea
 #### 2. Precision 
 Mide la proporción de predicciones positivas correctas sobre todas las predicciones que el modelo hizo como positivas. Es útil cuando el costo de un falso positivo es alto.
 
-- Formula:
+- Formula:![Descripción de la imagen](images/FormulaPrecision.png)
   
 
 
@@ -66,7 +69,7 @@ Mide la proporción de predicciones positivas correctas sobre todas las predicci
 #### 3. Recall  
 Mide la proporción de casos positivos reales que el modelo fue capaz de identificar correctamente. Es útil cuando el costo de un falso negativo es alto.
 
-- Formula:
+- Formula:![Descripción de la imagen](images/FormulaRecall.png)
   
 
 
@@ -76,7 +79,7 @@ Mide la proporción de casos positivos reales que el modelo fue capaz de identif
 #### 4. F1 Score  
 Es el promedio armónico entre la precisión y el recall, y se utiliza cuando es necesario un balance entre ambos. Un puntaje F1 alto indica que tanto la precisión como el recall son buenos.
 
-- Formula:
+- Formula:![Descripción de la imagen](images/FormulaF1.png)
   
 
 
@@ -86,29 +89,23 @@ Es el promedio armónico entre la precisión y el recall, y se utiliza cuando es
 #### 5. AUC-ROC  
 Mide la capacidad del modelo para distinguir entre las clases, calculando el área bajo la curva ROC (Receiver Operating Characteristic), que es un gráfico que muestra la tasa de verdaderos positivos frente a la tasa de falsos positivos.
 
-- Formula:
-  
-
-
 - Interpretación:
-   Un AUC cercano a 1 indica que el modelo tiene una buena capacidad para diferenciar entre las clases. Un AUC de 0.5 indica que el modelo no tiene capacidad predictiva mejor que el azar.
+  Un AUC cercano a 1 indica que el modelo tiene una buena capacidad para diferenciar entre las clases. Un AUC de 0.5 indica que el modelo no tiene capacidad predictiva mejor que el azar.
 
 #### 6. Log Loss  
 Evalúa la calidad de las probabilidades de predicción del modelo, penalizando las predicciones incorrectas con mayor severidad. Se usa principalmente en problemas de clasificación probabilística.
 
-- Formula:
+- Formula:![Descripción de la imagen](images/FormulaLogLoss.png)
   yi es el valor real de la clase (0 o 1)
   𝑝𝑖 es la probabilidad pronosticada de la clase positiva
   
-
-
 - Interpretación:
   Un Log Loss bajo indica que las probabilidades predichas están cerca de los valores reales. Un valor alto indica que las probabilidades predichas están alejadas de la realidad, lo que refleja un modelo menos confiable.
 
 #### 7. Matthews Correlation Coefficient (MCC)
 Mide la calidad de la clasificación binaria teniendo en cuenta todos los elementos de la matriz de confusión (verdaderos positivos, falsos positivos, verdaderos negativos y falsos negativos). Es una métrica equilibrada que es adecuada incluso para conjuntos de datos desbalanceados.
 
-- Formula:
+- Formula:![Descripción de la imagen](images/FormulaMCC.png)
 
 - Interpretación:
   Un valor de MCC cercano a 1 indica una excelente clasificación, mientras que valores cercanos a -1 indican una clasificación completamente incorrecta, y 0 sugiere que el modelo no tiene una relación significativa con la variable de salida.
@@ -116,7 +113,7 @@ Mide la calidad de la clasificación binaria teniendo en cuenta todos los elemen
 #### 8. Specificity 
 Mide la capacidad del modelo para identificar correctamente los casos negativos (es decir, evitar falsos positivos). Es lo contrario al recall, pero enfocado en los negativos.
 
-- Formula:
+- Formula:![Descripción de la imagen](images/FormulaSpecificity.png)
 
 - Interpretación:
   Una alta especificidad significa que el modelo es bueno para identificar los casos negativos correctamente, evitando que las instancias negativas sean clasificadas erróneamente como positivas. Es importante cuando los falsos positivos tienen consecuencias graves.
