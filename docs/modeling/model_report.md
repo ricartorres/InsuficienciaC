@@ -55,10 +55,14 @@ El modelo muestra un desempeño sobresaliente en la clasificación de eventos ne
 Matriz de Confusión:
 La matriz de confusión revela que el modelo clasifica correctamente todos los casos negativos, pero falla en algunos casos positivos.
 
+![Descripción de la imagen](images/MatrizConfusion.png)
+
+
 Visualizaciones:
 Curva ROC: Destaca un área bajo la curva del 96%, indicando una fuerte discriminación.
 Gráfico de Métricas: Proporciona una visión comparativa de los indicadores clave.
 
+![Descripción de la imagen](images/ROC.png)
 
 ## Conclusiones y Recomendaciones
 
