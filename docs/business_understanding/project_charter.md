@@ -241,9 +241,137 @@ c) Métricas de impacto:
 - No incluye localización para múltiples idiomas
 - No incluye consideraciones específicas de diferentes sistemas de salud
 
-## Metodología
+## Metodología CRISP-DM para predicción de insuficiencia cardíaca
 
-[Descripción breve de la metodología que se utilizará para llevar a cabo el proyecto]
+1. Comprensión del negocio
+
+a) Objetivos del negocio:
+- Mejorar la detección temprana de insuficiencia cardíaca
+- Reducir la mortalidad por enfermedades cardiovasculares
+- Optimizar recursos médicos mediante la identificación preventiva de casos de riesgo
+
+b) Evaluación de la situación:
+- Las enfermedades cardiovasculares son la principal causa de muerte global
+- El diagnóstico temprano es difícil y los síntomas no son específicos
+- Se necesitan herramientas de apoyo para la identificación de pacientes en riesgo
+
+c) Objetivos de minería de datos:
+- Desarrollar un modelo predictivo con alta sensibilidad y especificidad
+- Identificar los factores de riesgo más relevantes
+- Generar un sistema de puntuación de riesgo interpretable
+
+2. Comprensión de los datos
+
+a) Recolección de datos:
+- Datos demográficos de pacientes
+- Mediciones clínicas
+
+b) Exploración de datos:
+- Análisis estadístico descriptivo
+- Identificación de patrones y correlaciones
+- Visualización de distribuciones
+- Análisis de valores atípicos
+
+c) Verificación de calidad:
+- Identificación de datos faltantes
+- Validación de rangos y valores
+- Verificación de consistencia
+- Identificación de sesgos potenciales
+
+
+3. Preparación de los datos
+
+a) Selección de datos:
+- Identificación de variables relevantes
+- Eliminación de variables redundantes
+- Selección de período de análisis
+- Definición de criterios de inclusión/exclusión
+
+b) Limpieza de datos:
+- Tratamiento de valores faltantes
+- Manejo de valores atípicos
+- Corrección de inconsistencias
+- Estandarización de formatos
+
+c) Construcción de datos:
+- Creación de nuevas características
+- Agregación de variables
+- Normalización de mediciones
+- Codificación de variables categóricas
+
+d) Integración de datos:
+- Combinación de múltiples fuentes
+- Validación de integridad
+- Resolución de conflictos
+- Creación de conjunto de datos final
+
+4. Modelado
+
+a) Selección de técnicas:
+- Random Forest
+- XGBoost
+- Regresión Logística
+- Redes Neuronales
+
+b) Diseño de pruebas:
+- Definición de esquema de validación cruzada
+- Establecimiento de métricas de evaluación
+- Diseño de experimentos
+- Planificación de pruebas de robustez
+
+c) Construcción del modelo:
+- Entrenamiento de modelos individuales
+- Optimización de hiperparámetros
+- Implementación de ensemble
+- Validación de resultados
+
+5. Evaluación
+
+a) Evaluación de resultados:
+- Análisis de métricas de rendimiento
+- Verificación de cumplimiento de objetivos
+- Evaluación de generalización
+- Análisis de casos de error
+
+b) Validación del proceso:
+- Revisión de cada paso del desarrollo
+- Verificación de decisiones tomadas
+- Evaluación de alternativas
+- Documentación de lecciones aprendidas
+
+c) Determinación de próximos pasos:
+- Identificación de mejoras potenciales
+- Planificación de iteraciones
+- Definición de mantenimiento
+- Establecimiento de monitoreo
+
+6. Despliegue
+
+a) Planificación del despliegue:
+- Diseño de arquitectura de implementación
+- Definición de requisitos técnicos
+- Establecimiento de procedimientos de actualización
+- Desarrollo de documentación
+
+b) Monitoreo y mantenimiento:
+- Implementación de sistema de monitoreo
+- Definición de procedimientos de actualización
+- Establecimiento de controles de calidad
+- Plan de mantenimiento continuo
+
+c) Producción de reporte final:
+- Documentación técnica completa
+- Manual de usuario
+- Guía de interpretación de resultados
+- Reporte de evaluación final
+
+d) Revisión del proyecto:
+- Evaluación de cumplimiento de objetivos
+- Documentación de experiencias
+- Identificación de mejores prácticas
+- Recomendaciones para proyectos futuros
+
+
 
 ## Cronograma
 
@@ -251,8 +379,8 @@ c) Métricas de impacto:
 
 ## Equipo del Proyecto
 
-- [Nombre y cargo del líder del proyecto]
-- [Nombre y cargo de los miembros del equipo]
+- Ricardo Torres
+- Henry Bolaños
 
 ## Presupuesto
 
