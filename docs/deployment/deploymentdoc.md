@@ -224,6 +224,7 @@ c) Configuración del servidor:
 d) Desplegar la API:
 - Railway detectará automáticamente el archivo main.py y ejecutará el servidor con:
   - uvicorn main:app --host 0.0.0.0 --port ${PORT}
+  - El puerto configurado es 8082
  
 e) Verificar el despliegue:
 - Una vez completado el despliegue, Railway proporcionará una URL pública.
