@@ -2,21 +2,30 @@
 
 ## Origen de los datos
 
-- [ ] Especificar la fuente de los datos y la forma en que se obtuvieron. 
+- Fuente:
+  Los datos utilizados provienen del dataset público disponible en Kaggle: Heart Failure Clinical Data.
+- Método de obtención:
+  Se utiliza la API de Kaggle para descargar el archivo.
+  El acceso se realiza configurando credenciales mediante un archivo kaggle.json.
 
 ## Especificación de los scripts para la carga de datos
 
-- [ ] Especificar los scripts utilizados para la carga de los datos. 
+- El script se encuentra en scripts/data_acquisition/Carga_Datos_Automatica_Insuficiencia_Cardiaca
 
 ## Referencias a rutas o bases de datos origen y destino
 
-- [ ] Especificar las rutas o bases de datos de origen y destino para los datos.
-
 ### Rutas de origen de datos
 
-- [ ] Especificar la ubicación de los archivos de origen de los datos.
-- [ ] Especificar la estructura de los archivos de origen de los datos.
-- [ ] Describir los procedimientos de transformación y limpieza de los datos.
+- Ubicación de los archivos de origen
+  - Descargados desde Kaggle en el archivo heart_failure_clinical_data.zip.
+  - Archivo descomprimido: heart_failure_clinical_records_dataset.csv.
+- Estructura del archivo de origen:
+  - El archivo CSV contiene las siguientes columnas:
+    - age: Edad del paciente.
+- Procedimientos de transformación y limpieza:
+  - Validación de valores nulos.
+  - Conversión de tipos de datos donde sea necesario.
+  - Normalización de valores categóricos.
 
 ### Base de datos de destino
 
