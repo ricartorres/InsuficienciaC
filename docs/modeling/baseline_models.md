@@ -147,6 +147,19 @@ Tabla que muestra los resultados de las metricas de evaluación de los modelos
 - Fortalezas: La regresión logística muestra un buen rendimiento en términos de recall (0.72), lo que indica que el modelo es efectivo para identificar los casos positivos.
 - Debilidades: La precisión y el AUC-ROC son relativamente bajos, lo que sugiere que el modelo no discrimina bien entre las clases. El log loss es alto, lo que refleja predicciones inexactas.
 
+## Comparativa de modelos
+
+| Métrica | Regresión Logística | Random Forest | XGBoost | LightGBM | Redes Neuronales |
+|---|---|---|---|---|---|
+| Accuracy | ✓ | ✓ | ✓ | ✓ | ✓ |
+| Precision | ✓ | ✓ | ✓ | ✓ | ✓ |
+| Recall | ✓ (Crítica) | ✓ | ✓ | ✓ (Crítica) | ✓ |
+| F1-Score | ✓ | ✓ | ✓ | ✓ | ✓ |
+| AUC-ROC | ✓ (Importante) | ✓ (Destaca) | ✓ | ✓ | ✓ |
+| Matriz de Confusión | ✓ | ✓ | ✓ | ✓ | ✓ |
+| Log-Loss | ✓ | Opcional | Opcional | Opcional | ✓ |
+
+
 ## Conclusiones
 
 Conclusiones generales sobre el rendimiento del modelo baseline y posibles áreas de mejora.
