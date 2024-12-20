@@ -1,3 +1,4 @@
+![Descripción de la imagen](images/Falla-cardiaca.jpg)
 # Definición de los datos
 
 ## Origen de los datos
