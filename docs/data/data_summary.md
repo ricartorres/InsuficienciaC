@@ -123,17 +123,20 @@ Este conjunto de datos está en condiciones óptimas para proceder con análisis
 
 ## Variable objetivo
 
-- Nombre de la variable: target
+- Nombre de la variable: DEATH_EVENT
 - Tipo de variable: Categórica binaria (0 o 1).
 - Distribución de valores:
   - 0 (No insuficiencia cardíaca): Aproximadamente el 68% de los registros.
   - 1 (Insuficiencia cardíaca): Aproximadamente el 32% de los registros.
+ 
+![var_objetivo](https://github.com/ricartorres/InsuficienciaC/blob/master/docs/data/images/var_objetivo.png)
 
 ## Variables individuales
 
 En esta sección se presenta un análisis detallado de cada variable individual. Se muestran estadísticas descriptivas, gráficos de distribución y de relación con la variable objetivo (si aplica). Además, se describen posibles transformaciones que se pueden aplicar a la variable.
 
-1. Edad (age)
+
+**1. Edad (age)**
 - Estadísticas Descriptivas:
   - Rango: 40 - 95 años.
   - Media: 60 años.
@@ -144,7 +147,10 @@ En esta sección se presenta un análisis detallado de cada variable individual.
 - Relación con la Variable Objetivo:
   - Los pacientes mayores (≥60 años) tienen una probabilidad más alta de insuficiencia cardíaca.
  
-2. Fracción de Eyección (ejection_fraction)
+![var_edad_var_DEATH](https://github.com/ricartorres/InsuficienciaC/blob/master/docs/data/images/rel_edad_death.png)
+ 
+
+**2. Fracción de Eyección (ejection_fraction)**
 - Estadísticas Descriptivas:
   - Rango: 14% - 80%.
   - Media: 38%.
@@ -155,7 +161,10 @@ En esta sección se presenta un análisis detallado de cada variable individual.
 - Relación con la Variable Objetivo:
   - Los pacientes con insuficiencia cardíaca (clase 1) tienden a tener valores significativamente más bajos de fracción de eyección.
  
-3. Creatinina Sérica (serum_creatinine)
+![var_fraccion_e_var_DEATH](https://github.com/ricartorres/InsuficienciaC/blob/master/docs/data/images/rel_fraccion_e_death.png)
+ 
+
+**3. Creatinina Sérica (serum_creatinine)**
 - Estadísticas Descriptivas:
   - Rango: 0.5 - 9.4 mg/dL.
   - Media: 1.39 mg/dL.
@@ -164,8 +173,11 @@ En esta sección se presenta un análisis detallado de cada variable individual.
   - La mayoría de los pacientes tienen niveles de creatinina normales (<1.5 mg/dL), pero hay una cola larga hacia valores extremos (>3 mg/dL).
 - Relación con la Variable Objetivo:
   - Los niveles altos de creatinina están asociados con insuficiencia cardíaca, posiblemente reflejando un daño renal subyacente.
- 
-4. Hemoglobina Sérica (serum_sodium)
+
+![var_creatinina_var_DEATH](https://github.com/ricartorres/InsuficienciaC/blob/master/docs/data/images/rel_creatinina_death.png)
+
+
+**4. Hemoglobina Sérica (serum_sodium)**
 - Estadísticas Descriptivas:
   - Rango: 113 - 148 mEq/L.
   - Media: 137 mEq/L.
@@ -175,28 +187,28 @@ En esta sección se presenta un análisis detallado de cada variable individual.
 - Relación con la Variable Objetivo:
   - Los pacientes con niveles bajos (<135 mEq/L) tienen un riesgo significativamente mayor de insuficiencia cardíaca.
  
-5. Diabetes (diabetes)
+**5. Diabetes (diabetes)**
 - Tipo de Variable: Categórica (0: No, 1: Sí).
 - Distribución:
   - El 42% de los pacientes tienen diabetes.
 - Relación con la Variable Objetivo:
   - La proporción de pacientes con insuficiencia cardíaca es ligeramente más alta entre los que tienen diabetes, pero no es un predictor tan fuerte como otras variables.
  
-6. Fumar (smoking)
+**6. Fumar (smoking)**
 - Tipo de Variable: Categórica (0: No, 1: Sí).
 - Distribución:
   - El 33% de los pacientes son fumadores.
 - Relación con la Variable Objetivo:
   - No se observa una relación significativa entre fumar y la insuficiencia cardíaca en este dataset.
 
-7. Sexo (sex)
+**7. Sexo (sex)**
 - Tipo de Variable: Categórica (1: Hombre, 0: Mujer).
 - Distribución:
   - El 65% de los pacientes son hombres.
 - Relación con la Variable Objetivo:
   - Los hombres tienen una proporción más alta de insuficiencia cardíaca en comparación con las mujeres.
 
-8. Frecuencia Cardiaca Máxima (max_heartrate)
+**8. Frecuencia Cardiaca Máxima (max_heartrate)**
 - Estadísticas Descriptivas:
   - Rango: 60 - 202 bpm.
   - Media: 130 bpm.
@@ -213,10 +225,59 @@ En esta sección se presenta un análisis detallado de cada variable individual.
 
 ## Ranking de variables
 
-En esta sección se presenta un ranking de las variables más importantes para predecir la variable objetivo. Se utilizan técnicas como la correlación, el análisis de componentes principales (PCA) o la importancia de las variables en un modelo de aprendizaje automático.
+![rankin_var](https://github.com/ricartorres/InsuficienciaC/blob/master/docs/data/images/ranking_var.png)
 
+Esta gráfica muestra la importancia relativa de las variables (feature importance) en el dataset de Heart Failure, lo cual es crucial para entender qué factores tienen mayor influencia en la predicción de mortalidad por insuficiencia cardíaca.
 
+1. time (≈0.35): Es la variable más importante, representa el período de seguimiento en días. Su alta importancia sugiere que la duración del seguimiento es crucial para predecir el resultado.
+
+2. serum_creatinine (≈0.15): Segunda variable más importante, mide los niveles de creatinina en sangre. Su relevancia indica que la función renal es un factor crítico.
+
+3. ejection_fraction (≈0.12): La fracción de eyección del corazón es el tercer factor más importante, lo cual es lógico ya que mide directamente qué tan bien bombea el corazón.
+
+4. age (≈0.10): La edad del paciente aparece como cuarto factor más influyente, confirmando su importancia en el pronóstico.
+
+Las variables de importancia media (entre 0.05 y 0.10) incluyen:
+- creatinine_phosphokinase
+- platelets
+- serum_sodium
+
+Las variables con menor importancia (< 0.05) son:
+- diabetes
+- sex
+- smoking
+- anaemia
+- high_blood_pressure
+
+Es interesante notar que factores que tradicionalmente se consideran riesgosos como el tabaquismo, la diabetes y la presión arterial alta muestran una importancia relativamente baja en este modelo específico. Esto no significa que no sean importantes para la salud cardíaca en general, sino que en este conjunto de datos particular tienen menor poder predictivo para el resultado específico que se está analizando.
 
 ## Relación entre variables explicativas y variable objetivo
 
-En esta sección se presenta un análisis de la relación entre las variables explicativas y la variable objetivo. Se utilizan gráficos como la matriz de correlación y el diagrama de dispersión para entender mejor la relación entre las variables. Además, se pueden utilizar técnicas como la regresión lineal para modelar la relación entre las variables.
+![correlacion_var](https://github.com/ricartorres/InsuficienciaC/blob/master/docs/data/images/corr_variables.png)
+
+Esta gráfica muestra la correlación de cada variable con la variable objetivo 'DEATH_EVENT' (fallecimiento del paciente) en el dataset Heart Failure. La correlación va de -1 a 1, donde:
+- Valores cercanos a 1 indican correlación positiva fuerte (rojo)
+- Valores cercanos a -1 indican correlación negativa fuerte (azul oscuro)
+- Valores cercanos a 0 indican poca o nula correlación (azul claro/blanco)
+
+**Analizando las correlaciones de mayor a menor magnitud:**
+- Correlaciones más significativas:
+
+1. time (-0.53): Muestra una correlación negativa moderada-fuerte. Esto sugiere que a mayor tiempo de seguimiento, menor probabilidad de fallecimiento.
+
+2. ejection_fraction (-0.27): Correlación negativa moderada. A mayor fracción de eyección (mejor bombeo del corazón), menor probabilidad de fallecimiento.
+3. serum_creatinine (0.29): Correlación positiva moderada. Niveles más altos de creatinina en sangre están asociados con mayor probabilidad de fallecimiento.
+4. age (0.25): Correlación positiva moderada. A mayor edad, mayor probabilidad de fallecimiento.
+
+- Correlaciones débiles o muy débiles (entre -0.2 y 0.2):
+
+  - serum_sodium (-0.2): Correlación negativa débil
+  - platelets (-0.049)
+  - smoking (-0.013)
+  - sex (-0.0043)
+  - diabetes (-0.0019)
+  - creatinine_phosphokinase (0.063)
+  - anaemia (0.066)
+  - high_blood_pressure (0.079)
+ 
+Es interesante notar que algunas variables que mostraban alta importancia en el gráfico anterior muestran correlaciones diferentes aquí. Esto es normal ya que la importancia de una variable en un modelo predictivo no siempre corresponde directamente con su correlación con la variable objetivo.
