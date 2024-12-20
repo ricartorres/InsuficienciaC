@@ -1,3 +1,4 @@
+![Descripción de la imagen](images/Falla-cardiaca.jpg)
 # Reporte de Datos
 
 Este documento contiene los resultados del análisis exploratorio de datos.
