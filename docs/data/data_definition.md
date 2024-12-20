@@ -26,6 +26,19 @@
 - Estructura del archivo de origen:
   - El archivo CSV contiene las siguientes columnas:
     - age: Edad del paciente.
+    - creatinine_phosphokinase (nivel de enzima CPK en sangre)
+    - ejection_fraction (porcentaje de sangre que sale del corazón en cada contracción)
+    - platelets (conteo de plaquetas en sangre)
+    - serum_creatinine (nivel de creatinina en sangre)
+    - serum_sodium (nivel de sodio en sangre)
+    - time (período de seguimiento en días)
+    - anaemia (0 = no, 1 = sí)
+    - diabetes (0 = no, 1 = sí)
+    - high_blood_pressure (0 = no, 1 = sí)
+    - sex (0 = mujer, 1 = hombre)
+    - smoking (0 = no, 1 = sí)
+    - DEATH_EVENT (0 = sobrevivió, 1 = falleció) - Esta es la variable objetivo
+      
 - Procedimientos de transformación y limpieza:
   - Validación de valores nulos.
   - Conversión de tipos de datos donde sea necesario.
