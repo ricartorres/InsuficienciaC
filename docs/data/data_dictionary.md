@@ -1,3 +1,5 @@
+![Descripción de la imagen](images/Falla-cardiaca.jpg)
+
 # Diccionario de datos
 
 ## Base de datos 1
