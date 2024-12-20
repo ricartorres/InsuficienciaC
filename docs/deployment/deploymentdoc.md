@@ -55,6 +55,8 @@ e) Monitoreo y Logs:
 **4. Diagrama de Arquitectura**
 La siguiente descripción ilustra el flujo de datos y el sistema para el despliegue del modelo:
 
+![Descripción de la imagen](images/DiagramaArquitectura.png)
+
 a) Entrenamiento del Modelo:
 - Se realiza en Google Colab utilizando el dataset de Kaggle.
 - El modelo final entrenado (XGBoost classifier) se guarda como archivo serializado usando joblib.
