@@ -154,9 +154,12 @@ El proyecto debe tener la siguiente estructura:heart_failure_api/
 **Prueba Local de la API**
 1. Ejecuta el servidor localmente usando Uvicorn: uvicorn main:app --reload
 
-2. Abre tu navegador en http://127.0.0.1:8000/ para acceder a la ruta principal.
+2. Ejecutar sentencia en python para obtener prediccion.
+   
+   !curl -X POST https://railway-production-a260.up.railway.app/insuficiencia -H "Content-Type: application/json" -d '{"time": 150, "ejection_fraction": 35.0, "serum_creatinine": 1.2}'
+   
+   !curl -X POST https://railway-production-a260.up.railway.app/insuficiencia -H "Content-Type: application/json" -d '{"time": 80, "ejection_fraction": 12.0, "serum_creatinine": 11.2}'
 
-3. Accede a la documentación interactiva en http://127.0.0.1:8000/docs para probar el endpoint /predict.
 
 **Resumen**
 - Archivo Principal: main.py
@@ -206,7 +209,10 @@ heart_failure_api/
 
 e) Probar el servidor localmente (opcional):
 * Antes del despliegue en Railway, verifica que la API funcione localmente: uvicorn main:app --reload
-* Abre tu navegador en http://127.0.0.1:8000/docs para interactuar con la API.
+* En python !curl -X POST https://railway-production-a260.up.railway.app/insuficiencia -H "Content-Type: application/json" -d '{"time": 150, "ejection_fraction": 35.0, "serum_creatinine": 1.2}'
+* Url Local Html en http://127.0.0.1:8000/docs para interactuar con la API.
+  
+![Descripción de la imagen](images/PaginaHtml.png)
 
 f) En el archivo Despliegue_insuficiencia_Cardíaca.ipynb se encuentra el cargue y ejecución del modelo
 
