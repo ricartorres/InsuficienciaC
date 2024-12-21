@@ -158,7 +158,11 @@ El proyecto debe tener la siguiente estructura:heart_failure_api/
    
    !curl -X POST https://railway-production-a260.up.railway.app/insuficiencia -H "Content-Type: application/json" -d '{"time": 150, "ejection_fraction": 35.0, "serum_creatinine": 1.2}'
    
+   {"is_insuficiencia":0}
+   
    !curl -X POST https://railway-production-a260.up.railway.app/insuficiencia -H "Content-Type: application/json" -d '{"time": 80, "ejection_fraction": 12.0, "serum_creatinine": 11.2}'
+   
+   {"is_insuficiencia":1}
 
 
 **Resumen**
@@ -210,9 +214,7 @@ heart_failure_api/
 e) Probar el servidor localmente (opcional):
 * Antes del despliegue en Railway, verifica que la API funcione localmente: uvicorn main:app --reload
 * En python !curl -X POST https://railway-production-a260.up.railway.app/insuficiencia -H "Content-Type: application/json" -d '{"time": 150, "ejection_fraction": 35.0, "serum_creatinine": 1.2}'
-* Url Local Html en http://127.0.0.1:8000 para interactuar con la API.
   
-![Descripción de la imagen](images/Index_Html.png)
 
 f) En el archivo Despliegue_insuficiencia_Cardíaca.ipynb se encuentra el cargue y ejecución del modelo
 ndex_
@@ -311,6 +313,10 @@ bash
 Copiar código
 uvicorn main:app --reload
 Abre tu navegador en http://127.0.0.1:8000 para interactuar con la API.
+
+![Descripción de la imagen](images/Index_Html.png)
+
+
 2. Instrucciones de Configuración
 Para desplegar la API en Railway, sigue estos pasos:
 
