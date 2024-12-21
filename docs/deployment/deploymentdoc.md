@@ -210,7 +210,7 @@ heart_failure_api/
 e) Probar el servidor localmente (opcional):
 * Antes del despliegue en Railway, verifica que la API funcione localmente: uvicorn main:app --reload
 * En python !curl -X POST https://railway-production-a260.up.railway.app/insuficiencia -H "Content-Type: application/json" -d '{"time": 150, "ejection_fraction": 35.0, "serum_creatinine": 1.2}'
-* Url Local Html en http://127.0.0.1:8000/docs para interactuar con la API.
+* Url Local Html en http://127.0.0.1:8000 para interactuar con la API.
   
 ![Descripción de la imagen](images/Index_Html.png)
 
