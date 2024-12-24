@@ -33,9 +33,13 @@ Los resultados del modelo XGBoost sugieren que la clasificación binaria puede r
   - El desbalance de clases también presentó un desafío, pero fue mitigado utilizando técnicas como SMOTE para el sobreajuste de clases minoritarias.
 
 - Lecciones aprendidas en relación al manejo de los datos, el modelamiento y la implementación del modelo.
-  - x
+  - Es una buena practica en primera instancia conocer los datos, realizar estadisticas de estos con el fin de identificar patrones, en cuanto al modelamiento es interesante realizar entrenamiento en diferentes modelos.
+  - La implementacion del modelo siempre hay que evaluarla teniendo en cuneta en lo posible la mayor cantidad de metricas para compararlas.
+    
 - Recomendaciones para futuros proyectos de machine learning.
-  - y
+  - conocer primero la necesidad, los datos y seleccionar el mejor modelo
+  - Los datos pueden cambiar en el transcurso del tiempo, lo mejor es ir revisando periodicamente el desempeño del modelo.
+  - Hacer una bitacora historica de los modelos por si el dia de mañana hay una opcion similar.
 
 ## Impacto del proyecto
 
